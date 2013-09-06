@@ -6,7 +6,8 @@
   },
   "dependencies": {
     "connect": "~2.8.8",
-    "wintersmith": "~2.0.5"
+    "wintersmith": "~2.0.5",
+    "coffee-script": "~1.6.3"
   },
   "description": "tlvince labs",
   "repository": {
