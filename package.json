@@ -1,0 +1,26 @@
+{
+  "name": "labs.tlvince.com",
+  "version": "1.0.0",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "connect": "~2.8.8",
+    "wintersmith": "~2.0.5"
+  },
+  "description": "tlvince labs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlvince/labs.tlvince.com.git"
+  },
+  "keywords": [
+    "labs",
+    "wintersmith",
+    "tlvince"
+  ],
+  "author": "Tom Vincent",
+  "license": "All rights reserved",
+  "bugs": {
+    "url": "https://github.com/tlvince/labs.tlvince.com/issues"
+  }
+}

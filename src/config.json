@@ -1,0 +1,22 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Labs",
+    "description": "Experiments by @tlvince",
+    "owner": {
+      "name": "Tom Vincent",
+      "url": "http://tlvince.com"
+    }
+  },
+  "require": {
+    "_": "./node_modules/underscore",
+    "typogr": "./node_modules/typogr"
+  },
+  "plugins": [
+    "./node_modules/wintersmith-stylus",
+    "./node_modules/wintersmith-yaml"
+  ],
+  "stylus": {
+    "compress": true
+  }
+}

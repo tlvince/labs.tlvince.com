@@ -1,0 +1,6 @@
+[submodule "src/contents/labs"]
+	path = src/contents/labs
+	url = https://github.com/tlvince/labs.git
+[submodule "src/contents/assets"]
+	path = src/contents/assets
+	url = https://github.com/tlvince/labs-assets.git
