@@ -7,7 +7,11 @@
   "dependencies": {
     "connect": "~2.8.8",
     "wintersmith": "~2.0.5",
-    "coffee-script": "~1.6.3"
+    "coffee-script": "~1.6.3",
+    "wintersmith-yaml": "~1.0.1",
+    "wintersmith-stylus": "~0.4.0",
+    "underscore": "~1.5.1",
+    "typogr": "~0.6.1"
   },
   "description": "tlvince labs",
   "repository": {
@@ -23,8 +27,5 @@
   "license": "All rights reserved",
   "bugs": {
     "url": "https://github.com/tlvince/labs.tlvince.com/issues"
-  },
-  "scripts": {
-    "install": "cd src; npm install"
   }
 }

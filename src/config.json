@@ -1,6 +1,6 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "http://labs.tlvince.com",
     "name": "Labs",
     "description": "Experiments by @tlvince",
     "owner": {
@@ -9,12 +9,12 @@
     }
   },
   "require": {
-    "_": "./node_modules/underscore",
-    "typogr": "./node_modules/typogr"
+    "_": "../node_modules/underscore",
+    "typogr": "../node_modules/typogr"
   },
   "plugins": [
-    "./node_modules/wintersmith-stylus",
-    "./node_modules/wintersmith-yaml"
+    "../node_modules/wintersmith-stylus",
+    "../node_modules/wintersmith-yaml"
   ],
   "stylus": {
     "compress": true
