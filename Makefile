@@ -22,8 +22,8 @@ preview:
 	$(bin)/wintersmith preview --chdir $(in)
 
 push:
-	git push origin master
-	git push heroku master
+	git push --tags origin master
+	git push --tags heroku master
 
 compile:
 	rm -rf node_modules/wintersmith/lib
