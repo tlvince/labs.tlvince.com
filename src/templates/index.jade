@@ -17,4 +17,6 @@ block content
           each article in articles[year]
             li
               a(href=article.data.url)= article.data.title
+              if article.data.fork
+                |  (fork)
               p!= typogr(article.data.description).typogrify()
