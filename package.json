@@ -23,5 +23,8 @@
   "license": "All rights reserved",
   "bugs": {
     "url": "https://github.com/tlvince/labs.tlvince.com/issues"
+  },
+  "scripts": {
+    "install": "cd src; npm install"
   }
 }
