@@ -15,7 +15,7 @@ rss(version='2.0',
     for article in articles
       item
         title= article.data.title
-        link= locals.url
+        link= article.data.url
         pubDate= new Date(article.data.date)
         author= locals.owner.name
         description= article.data.description
