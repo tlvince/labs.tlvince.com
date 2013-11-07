@@ -9,7 +9,7 @@ html(lang='en-GB')
       meta(name='viewport', content='width=device-width')
       title
         block title
-          = locals.name
+          | #{locals.name} | Tom Vincent
       block description
         meta(name='description', content=locals.description)
         meta(name='author', content=locals.owner.name)
